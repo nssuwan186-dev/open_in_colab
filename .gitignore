@@ -1,0 +1,6 @@
+node_modules/
+service_worker_compiled.js
+package-lock.json
+.DS_Store
+kimidev/
+.env

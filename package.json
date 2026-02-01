@@ -1,0 +1,17 @@
+{
+  "name": "open-in-colab",
+  "version": "1.2.1",
+  "description": "Open a Github-hosted notebook in Google Colab",
+  "main": "service_worker.ts",
+  "scripts": {
+    "build": "esbuild service_worker.ts --bundle --outfile=service_worker_compiled.js --platform=browser",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "esbuild": "^0.24.0",
+    "typescript": "^5.0.0",
+    "@types/chrome": "^0.0.260",
+    "vitest": "^2.1.0"
+  }
+}
+
